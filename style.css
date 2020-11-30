@@ -1,0 +1,36 @@
+body{
+  background-color:#007e6f;
+}
+hr{
+  background-color:#007e6f;
+  width:100%;
+  border-style: dotted none none;
+  border-color: white;
+  border-width: 5px;
+}
+h3{
+  color: black;
+}
+p{
+  color: white;
+}
+h1{
+  color: white;
+}
+li{
+  color: white;
+}
+td{
+  color:white;
+}
+th{
+  color: white;
+}
+label{
+  color: white;
+}
+/**********************CLASS SELECTORS**************************/
+.circular{
+  border-radius: 100%;
+
+}
