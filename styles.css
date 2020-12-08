@@ -1,7 +1,7 @@
 body{
   margin: 0;
 text-align: center;
-font-family: sans-serif;
+font-family:"Helvectica" sans-serif;
 }
 h1{
   width: 10%;
@@ -39,7 +39,7 @@ h1{
 left : 200px;
 }
 .b{
-  font-family: cursive;
+  font-family: "Helvectica" sans-serif;
 }
 .circular{
   border-radius: 100%;
