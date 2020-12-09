@@ -84,12 +84,14 @@ button:hover{
 .fa-facebook {
   background: #3B5998;
   color: white;
+  border-radius:100%;
 }
 
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  border-radius:100%;
 }
 
 
