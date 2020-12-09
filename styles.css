@@ -29,6 +29,8 @@ h1{
 .hobby{
   background-image:url("https://www.thenewdealer.org/wp-content/uploads/2016/10/Chess_move.jpg");
   margin:100px auto 100px auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .cloud1{
   position: absolute;
