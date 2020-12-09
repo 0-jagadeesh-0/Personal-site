@@ -68,20 +68,20 @@ button:hover{
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 50px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
-.fa-facebook {
+.fa- facebook {
   background: #3B5998;
   color: white;
 }
