@@ -139,6 +139,9 @@ color: orange;
   color: white;
 }
 @media (max-width:1200px) {
+  .nav-brand{
+  
+  }
   #title{
     text-align: center;
   }
