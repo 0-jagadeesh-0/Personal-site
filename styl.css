@@ -1,20 +1,34 @@
 body{
   font-family: "Montserrat";
 }
-#title {
-  background-color: #101415;
+h1,h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4{
+  font-size: 5px;
+  text-align: center;
+  font-family:'Ubuntu', sans-serif ;
+}
+h5{
+  color: white;
+}
+p{
+  color: gray;
+}
+.big-heading{
+  padding: 10%;
+
 }
 .mypic{
   padding:40px;
   border-radius: 100%;
-  position:relative;
+  position:absolute;
 }
-h1{
-  padding: 10%;
-  font-family: 'Montserrat', sans-serif;
-}
+
+
 .but{
-padding:0 0 30px 160px;
+padding:10% 30%;
 }
 .navbar-brand{
   padding-left: 100px;
@@ -29,18 +43,17 @@ padding:0 0 30px 160px;
 .nav-item{
   padding: 0 20px 0 20px;
 }
+#title {
+  background-color: #101415;
+}
 #features{
   padding: 7% 15%;
   background-color: white;
-  position:static;
-  z-index:1;
+  position: relative;
+  z-index: 1;
 }
-h3{
-  font-family: 'Montserrat', sans-serif;
-}
-p{
-  color: gray;
-}
+
+
 .feature-box{
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
@@ -83,17 +96,13 @@ padding: 7% 15%;
   text-align: center;
 }
 .heads{
-  font-size: 50px;
+
   color: indigo;
   text-align: center;
   font-family: 'Montserrat', sans-serif ;
   padding-bottom:40px;
 }
-h2{
-  font-size: 5px;
-  text-align: center;
-  font-family:'Montserrat', sans-serif ;
-}
+
 .pic3{
   color:red;
 }
@@ -124,17 +133,19 @@ color: orange;
 .fa-instagram{
   color: brown;
 }
-h5{
-  color: white;
-}
+
 .copyright{
   padding: 10px 0 10px 0;
   color: white;
 }
-@media (max-width:1100px){
-.mypic{
-  padding:40px;
-  border-radius: 100%;
-
-}
+@media (max-width:1200px) {
+  #title{
+    text-align: center;
+  }
+  .but{
+    padding:0 30%;
+  }
+  .mypic{
+    position:static;
+  }
 }
