@@ -140,7 +140,7 @@ color: orange;
 }
 @media (max-width:1200px) {
   .nav-brand{
-  
+  font-size:90px;
   }
   #title{
     text-align: center;
