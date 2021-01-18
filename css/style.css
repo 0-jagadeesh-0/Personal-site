@@ -140,9 +140,7 @@ color: orange;
   color: white;
 }
 @media (max-width:1200px) {
-   body{
-      font-size:3rem;
-        }
+   
   .nav-brand{
   font-size:90px;
   }
