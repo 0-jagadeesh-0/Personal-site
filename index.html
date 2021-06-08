@@ -151,6 +151,26 @@
       <p class="copyright">© Copyright 2020 0_jagadeesh_0</p>
     </div>
   </section>
+  <script>
+    function showNotification() {
+  const notification = new Notification("New message from ANARC",{
+    body:"Hey, How R U",
+    icon:"https://media-exp1.licdn.com/dms/image/C4D0BAQGLrNTd9UJz7w/company-logo_200_200/0/1609912928597?e=2159024400&v=beta&t=mXoVE4fPFv7zuU2ZZP4jY7xSSBL1U-s2mgsK5O0AqSo"
+  });
+}
+console.log(Notification.permission);
+
+if(Notification.permission==="granted")
+{
+  alert("We have permission");
+}
+else if(Notification.permission!=="denied")
+{
+  Notification.requestPermission().then(permission => {
+    showNotification();
+  });
+}
+    </script>
 </body>
 
 </html>
