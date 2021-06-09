@@ -153,15 +153,6 @@
   </section>
   <script>
     function showNotification() {
-      var renotify = Notification.renotify;
-      var options = {
-  body: 'Do you like me&',
-  renotify: true
-}
-
-var n = new Notification('Test notification',options);
-
-console.log(n.renotify);
   const notification = new Notification("Hello are u ready",{
     body:"Hey, How R U",
     icon:"https://media-exp1.licdn.com/dms/image/C4D0BAQGLrNTd9UJz7w/company-logo_200_200/0/1609912928597?e=2159024400&v=beta&t=mXoVE4fPFv7zuU2ZZP4jY7xSSBL1U-s2mgsK5O0AqSo"
@@ -171,7 +162,7 @@ console.log(Notification.permission);
 
 if(Notification.permission==="granted")
 {
-  alert("We have permission");
+  showNotification();
 }
 else if(Notification.permission!=="denied")
 {
